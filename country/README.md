@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# where in the world project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was built using : React.js Styled-components and rest-countries API
 
 ## Available Scripts
 

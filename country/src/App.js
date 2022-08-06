@@ -1,15 +1,16 @@
-  
+import Header from "./components/Header";
+import GlobalStyle from "./GlobalStyle";
+import Search from "./components/Search";
+import Grid from "./components/Grid";
+import { ContextProvider } from "./components/Context";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-         test
-        </p>
-       
-      </header>
-    </div>
+    <ContextProvider>
+      <GlobalStyle />
+       <Header />
+       <Search />
+       <Grid />
+    </ContextProvider>
   );
 }
 
