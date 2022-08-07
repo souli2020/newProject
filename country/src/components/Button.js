@@ -1,7 +1,9 @@
 import React from "react";
 import { StyledButton } from "./styles/Button.styled";
-function Button({ children }) {
-  return <StyledButton>{children}</StyledButton>;
+function Button({ onClick, children }) {
+  return  <StyledButton  onClick={onClick}> 
+    {children}
+    </StyledButton> 
 }
 
 export default Button;
