@@ -1,6 +1,8 @@
-# where in the world project
+# where in the world project!
 
-This project was built using : React.js Styled-components and rest-countries API
+#### under developement
+
+using : React.js Styled-components and rest-countries API
 
 ## Available Scripts
 
